@@ -1,24 +1,36 @@
 <?php
 
+// must first forward local port to bones via taz
+// remote connections to port 3306 are blocked
+// $ ssh -L 8306:bones:3306 user@taz.cs.wcupa.edu
+$host = "127.0.0.1";
+$port = 8306;              // forwarded port
+
+$dbname = "PieCharts";
+$username = "";
+$password = "";
+
+// username and password re-defined in external php file
+// included in .gitignore, so they're never committed into repo
 require 'credentials.php';
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+try {
 
-$sql = "SELECT `Index`, `Id`, `Date` FROM `Corpus`";
-$result = $conn->query($sql);
+	// Create connection
+	$dbh = new PDO("mysql:host=$host;port=$port;dbname=$dbname", $username, $password);
 
-if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
+	$sql = "SELECT `Index`, `Id`, `Date` FROM `Corpus`";
+    foreach($dbh->query($sql) as $row) {
+        // print_r($row);
         echo "Index: " . $row["Index"]. " - Id: " . $row["Id"]. " - Date: " . $row["Date"]. "<br>";
     }
-} else {
-    echo "0 results";
+
+} catch (PDOException $e) {
+    print "Error!: " . $e->getMessage() . "<br/>";
+    die();
 }
-$conn->close();
+
+
+// close the connection
+$dbh = null;
 ?> 

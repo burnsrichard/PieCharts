@@ -1,3 +1,12 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Corpus</title>
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 <?php
 
 // must first forward local port to bones via taz
@@ -19,10 +28,11 @@ try {
 	// Create connection
 	$dbh = new PDO("mysql:host=$host;port=$port;dbname=$dbname", $username, $password);
 
-	$sql = "SELECT `Index`, `Id`, `Date` FROM `Corpus`";
+	$sql = "SELECT `Index`, `Id`, `Date`, `Source`, `Headline` FROM `Corpus`";
     foreach($dbh->query($sql) as $row) {
         // print_r($row);
-        echo "Index: " . $row["Index"]. " - Id: " . $row["Id"]. " - Date: " . $row["Date"]. "<br>";
+        echo "Index: " . $row["Index"]. " - Id: " . $row["Id"]. " - Date: " . $row["Date"]. " - Source: ". $row["Source"].
+        	" - Headline: ". $row["Headline"]. "<br>";
     }
 
 } catch (PDOException $e) {
@@ -34,3 +44,5 @@ try {
 // close the connection
 $dbh = null;
 ?> 
+</body>
+</html>

@@ -1,0 +1,39 @@
+body {
+	background-color: #334C80;
+	color: white;
+}
+
+#header {
+	background-color: white;
+	color: #334C80;
+	font-size: 30px;
+	text-align: center;
+	border: 1px solid black;
+	margin: 0;
+	padding: 25px;
+}
+
+table {
+	background-color: #E0EBFF;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th {
+	background-color: #94B8FF;
+	color: white;
+}
+
+th, td {
+	border: 1px solid black;
+	text-align: left;
+	padding: 10px;
+}
+
+td {
+	color: #001F4C;
+}
+
+.piechart {
+	max-width: 50%;
+}

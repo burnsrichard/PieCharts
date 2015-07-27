@@ -1,6 +1,7 @@
 body {
 	background-color: #334C80;
 	color: white;
+	padding-bottom: 50px;
 }
 
 #header {
@@ -8,15 +9,22 @@ body {
 	color: #334C80;
 	font-size: 30px;
 	text-align: center;
-	border: 1px solid black;
-	margin: 0;
 	padding: 25px;
+}
+#header a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #94B8FF;
+}
+#header a:visited {
+	color: #CC6699;
 }
 
 table {
 	background-color: #E0EBFF;
 	border-collapse: collapse;
-	width: 100%;
+	width: 80%;
+	margin: auto;
 }
 
 th {
@@ -35,5 +43,5 @@ td {
 }
 
 .piechart {
-	max-width: 50%;
+	max-width: 25%;
 }

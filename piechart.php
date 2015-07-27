@@ -7,7 +7,8 @@
 <body>
 	<?php 
 		$id = filter_input(INPUT_GET, 'id');
-		//echo "$id";
+		$string = explode('-', $id);
+		$filename = $string[0];
 
 		// must first forward local port to bones via taz
 		// remote connections to port 3306 are blocked
@@ -23,6 +24,10 @@
 		// included in .gitignore, so they're never committed into repo
 		require 'credentials.php';
 		?>
+		<div id="header">Pie Chart - <?php echo $id; ?> 
+						<br> <a href="index.php">Corpus</a> | 
+						<a href="groupedpies.php">Grouped Pie Charts</a>
+		</div>
 		<table>
     		<tr>
         		<th>Index</th>
@@ -54,12 +59,14 @@
             	<td><?php echo $row["Caption"]?></td>
             	<td><?php 
             		if($row["File Type"] == "pdf") {
-            			echo '<a href= "images/'.$id.'.pdf">pdf link</a>';
+            			echo '<a href= "images/'.$filename.'.pdf">pdf link</a>';
             		}
             		else {
-            			echo '<a href ="images/'.$id.'.'.$row["File Type"].'">';
-            			echo '<img class="piechart" src= "images/'.$id.'.'.$row["File Type"].'">';
-            			echo '</a>';
+
+            			echo '<a href ="images/'.$filename.'.'.$row["File Type"].'">';
+            			echo '<img class="piechart" src= "images/'.$filename.'.'.$row["File Type"].'">';
+            			echo '</a><br>';
+            			echo '(click image to enlarge)';
             		}
 
             	?></td>

@@ -33,7 +33,7 @@ require 'credentials.php';
         <th>Index</th>
         <th>Id</th>  
         <th>Date</th>
-        <th>Source</th>
+        <th>Headline</th>
     </tr>
 <?php
 try {
@@ -44,14 +44,31 @@ try {
     print "Error!: " . $e->getMessage() . "<br/>";
     die();
 }
-	$sql = "SELECT `Index`, `Id`, `Date`, `Source` FROM `Corpus`";
+    $cnt = "SELECT COUNT(*) FROM `Corpus` WHERE `Thrown Out` = 0 OR `Thrown Out` = 2"; 
+    $stmt = $dbh->prepare($cnt);
+    $stmt->execute();
+    $total = $stmt->fetch();
+    ?>
+    <tr>
+        <td>
+            <?php echo $total[0]; ?>
+        </td>
+    </tr><?php
+	$sql = "SELECT `Index`, `Id`, `Date`, `Headline`, `Thrown Out` FROM `Corpus` WHERE `Thrown Out` = 0 OR `Thrown Out` = 2";
     foreach($dbh->query($sql) as $row) {
     ?>
         <tr>
             <td><?php echo $row["Index"]?></td>
-            <td><a href="piechart.php?id=<?php echo $row["Id"]?>"><?php echo $row["Id"]?></a></td> 
+            <td><a href="piechart.php?id=<?php echo $row["Id"]?>">
+                <?php 
+                echo $row["Id"]; 
+                if($row["Thrown Out"] == 2) {
+                    echo " ?";              
+                }
+                ?></a>
+            </td> 
             <td><?php echo $row["Date"]?></td>
-            <td><?php echo $row["Source"]?></td>
+            <td><?php echo $row["Headline"]?></td>
         </tr>
     <?php
     }

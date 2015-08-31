@@ -6,6 +6,7 @@
 </head>
 <body>
 	<?php 
+		// From the pie chart id, get only the filename
 		$id = filter_input(INPUT_GET, 'id');
 		$string = explode('-', $id);
 		$filename = $string[0];
@@ -27,17 +28,10 @@
 		<div id="header">Pie Chart - <?php echo $id; ?> 
 						<br> <a href="index.php">Corpus</a> | 
 						<a href="groupedpies.php">Grouped Pie Charts</a>
+						<a href="groupedpies.php">Grouped Pie Charts</a> |
+        				<a href="messages.php">Message Categories</a>
 		</div>
-		<table>
-    		<tr>
-        		<th>Index</th>
-        		<th>Id</th>  
-        		<th>Date</th>
-        		<th>Source</th>
-        		<th>Headline</th>
-        		<th>Caption</th>
-        		<th></th>
-    		</tr>
+		<div id="piechartinfo">
 		<?php
 		// Create connection
 		$dbh = new PDO("mysql:host=$host;port=$port;dbname=$dbname", $username, $password);
@@ -49,35 +43,25 @@
 		if($row === false){
     		echo $id . ' not found!';
 		} else{
-			?>
-    		<tr>
-            	<td><?php echo $row["Index"]?></td>
-            	<td><?php echo $row["Id"]?></td> 
-            	<td><?php echo $row["Date"]?></td>
-            	<td><?php echo $row["Source"]?></td>
-        		<td><?php echo $row["Headline"]?></td>
-            	<td><?php echo $row["Caption"]?></td>
-            	<td><?php 
-            		if($row["File Type"] == "pdf") {
-            			echo '<a href= "images/'.$filename.'.pdf">pdf link</a>';
+			if($row["Date"] == null) {
+                echo "date unknown";
+            }else 
+                echo $row["Date"];
+                echo " | " . $row["Source"] . "<br>";
+        	    echo "<h3>" . $row["Headline"] . "</h3>" . $row["HeadlineText"] . "<br>";
+                echo $row["Caption"] . "<br>";
+                echo $row["Caption Text"] . "<br>";
+            if($row["File Type"] == "pdf") {
+            	echo '<a href= "images/'.$filename.'.pdf">pdf link</a>';
+            }
+            else {
+				echo '<a href ="images/'.$filename.'.'.$row["File Type"].'">';
+            	echo '<img class="piechart" src= "images/'.$filename.'.'.$row["File Type"].'">';
+            	echo '</a><br>';
+            	echo '(click image to enlarge)';
             		}
-            		else {
-
-            			echo '<a href ="images/'.$filename.'.'.$row["File Type"].'">';
-            			echo '<img class="piechart" src= "images/'.$filename.'.'.$row["File Type"].'">';
-            			echo '</a><br>';
-            			echo '(click image to enlarge)';
-            		}
-
-            	?></td>
-            	
-        	</tr>
-
-		<?php
-		}
-		?>
-		</table>
-
+		}?>
+		</div>
 		<?php $dbh = null; ?>
 </body>
 </html>

@@ -22,11 +22,11 @@
 	// included in .gitignore, so they're never committed into repo
 	require 'credentials.php';
 ?>
-	<div id="header">Grouped Pie Charts</div> <br> 
+	<div id="header">Grouped Pie Charts <br> 
 					<a href="index.php">Corpus</a> | 
-					<a href="groupedpies.php">Grouped Pie Charts</a>
+					<a href="groupedpies.php">Grouped Pie Charts</a> |
+        			<a href="messages.php">Message Categories</a>
 	</div>
-
 	<table>
     <tr>
         <th>Index</th>
@@ -42,7 +42,7 @@
     		print "Error!: " . $e->getMessage() . "<br/>";
     		die();
     	}
-    	$sql = "SELECT `Index`, `Id`, `Text`, `Components`, `File Type` FROM `GroupedPies`";
+    	$sql = "SELECT `Index`, `Id`, `Text`, `Components`, `File Type` FROM `GroupedPies` WHERE `ThrownOut` = 0 OR `ThrownOut` = 2";
     	foreach($dbh->query($sql) as $row) {
     ?>
         <tr>

@@ -26,7 +26,8 @@ require 'credentials.php';
 ?>
 <div id="header">Pie Charts</> <br> 
                 <a href="index.php">Corpus</a> | 
-                <a href="groupedpies.php">Grouped Pie Charts</a>
+                <a href="groupedpies.php">Grouped Pie Charts</a> |
+                <a href="messages.php">Message Categories</a>
 </div>
 <table>
     <tr>
@@ -34,6 +35,7 @@ require 'credentials.php';
         <th>Id</th>  
         <th>Date</th>
         <th>Headline</th>
+        <th>Tags</th>
     </tr>
 <?php
 try {
@@ -48,15 +50,10 @@ try {
     $stmt = $dbh->prepare($cnt);
     $stmt->execute();
     $total = $stmt->fetch();
-    ?>
-    <tr>
-        <td>
-            <?php echo $total[0]; ?>
-        </td>
-    </tr><?php
-	$sql = "SELECT `Index`, `Id`, `Date`, `Headline`, `Thrown Out` FROM `Corpus` WHERE `Thrown Out` = 0 OR `Thrown Out` = 2";
-    foreach($dbh->query($sql) as $row) {
-    ?>
+    echo "Total number of pies shown: " . $total[0];
+        
+	$sql = "SELECT * FROM `Corpus` WHERE `Thrown Out` = 0 OR `Thrown Out` = 2";
+    foreach($dbh->query($sql) as $row) { ?>
         <tr>
             <td><?php echo $row["Index"]?></td>
             <td><a href="piechart.php?id=<?php echo $row["Id"]?>">
@@ -67,13 +64,40 @@ try {
                 }
                 ?></a>
             </td> 
-            <td><?php echo $row["Date"]?></td>
+            <td><?php 
+                    if($row["Date"] == null) {
+                        echo "date unknown";
+                        }else 
+                        echo $row["Date"];
+            ?></td>
             <td><?php echo $row["Headline"]?></td>
+            <td><?php echo $row["tags"]?></td>
         </tr>
     <?php
     }
     ?>
 </table>
+<div id = "tags">
+    Tags:
+    <?php 
+        //display distinct types of tags
+        $tags = array();
+        $tags2 = "SELECT `tags` FROM `Corpus`";
+        foreach($dbh->query($tags2) as $row) {
+            $components = $row["tags"];
+            $seperateTags = preg_split("/( |,)/", $components);
+            foreach($seperateTags as $aTag) {
+                array_push($tags, $aTag);
+            }
+        }
+        $result = array_unique($tags);
+        foreach($result as $value){
+            echo "<a href='tag.php?id=$value'>" . $value . "</a> ";
+        }
+
+         
+    ?>
+</div>
 <?php
 // close the connection
 $dbh = null;

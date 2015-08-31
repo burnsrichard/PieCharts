@@ -44,4 +44,22 @@ td {
 
 .piechart {
 	max-width: 25%;
+	align: right;
+}
+
+#piechartinfo {
+	background-color: #E0EBFF;
+	color: black;
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#tags {
+	background-color: white;
+	color: #334C80; 
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 10px;
 }

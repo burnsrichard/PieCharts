@@ -7,26 +7,10 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<?php	// must first forward local port to bones via taz
-	// remote connections to port 3306 are blocked
-	// $ ssh -L 8306:localhost:3306 user@taz.cs.wcupa.edu
-	// $ ssh -L 8306:bones:3306 user@taz.cs.wcupa.edu
-	$host = "127.0.0.1";
-	$port = 8306;              // forwarded port
-
-	$dbname = "PieCharts";
-	$username = "";
-	$password = "";
-
-	// username and password re-defined in external php file
-	// included in .gitignore, so they're never committed into repo
+<?php
 	require 'credentials.php';
+    include 'header.php';
 ?>
-	<div id="header">Grouped Pie Charts <br> 
-					<a href="index.php">Corpus</a> | 
-					<a href="groupedpies.php">Grouped Pie Charts</a> |
-        			<a href="messages.php">Message Categories</a>
-	</div>
 	<table>
     <tr>
         <th>Index</th>

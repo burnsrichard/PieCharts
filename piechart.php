@@ -6,31 +6,14 @@
 </head>
 <body>
 	<?php 
+		require 'credentials.php';
+		include 'header.php';
+
 		// From the pie chart id, get only the filename
 		$id = filter_input(INPUT_GET, 'id');
 		$string = explode('-', $id);
 		$filename = $string[0];
-
-		// must first forward local port to bones via taz
-		// remote connections to port 3306 are blocked
-		// $ ssh -L 8306:localhost:3306 user@taz.cs.wcupa.edu
-		$host = "127.0.0.1";
-		$port = 8306;              // forwarded port
-
-		$dbname = "PieCharts";
-		$username = "";
-		$password = "";
-	
-		// username and password re-defined in external php file
-		// included in .gitignore, so they're never committed into repo
-		require 'credentials.php';
 		?>
-		<div id="header">Pie Chart - <?php echo $id; ?> 
-						<br> <a href="index.php">Corpus</a> | 
-						<a href="groupedpies.php">Grouped Pie Charts</a>
-						<a href="groupedpies.php">Grouped Pie Charts</a> |
-        				<a href="messages.php">Message Categories</a>
-		</div>
 		<div id="piechartinfo">
 		<?php
 		// Create connection

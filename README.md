@@ -6,9 +6,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Contained in this repository.
 
-Access to `taz.cs.wcupa.edu` is required. The database exists on `bones.cs.wcupa.edu`, whose firewall blocks access to MYSQL port 3306. However, this MYSQL port can be accessed within the CS firewall. 
+Access to `taz.cs.wcupa.edu` is required. The database exists on `taz.cs.wcupa.edu`, whose firewall blocks access to MYSQL port 3306. However, this MYSQL port can be accessed within the CS firewall. 
 
 Two additional things need to be specified:
-  1. a `credentials.php` file to specifie `$username` and `$password` DB credentials (see `index.php`)
-  2. port forwarding to `bones` via `taz. From the command line: `$ ssh -L 8306:bones:3306 user@taz.cs.wcupa.edu`
+  1. a `credentials.php` file to specify `$username` and `$password` DB credentials :
+
+<?php
+// must first forward local port to taz
+// remote connections to port 3306 are blocked
+// $ ssh -L 8306:localhost:3306 user@taz.cs.wcupa.edu
+$host = "127.0.0.1";
+$port = 8306;              // forwarded port
+
+$dbname = "PieCharts";
+$username = "<username>";
+$password = "<password>";
+
+// included in .gitignore, so they're never committed into repo
+
+?>
+
+  2. port forwarding to taz. From the command line: `$ ssh -L 8306:localhost:3306 user@taz.cs.wcupa.edu`
 

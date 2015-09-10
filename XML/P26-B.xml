@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P26-B">
+	<!-- Page title: Will We Beat Isil? President Obama expressed absolute confidence 
+	in the ability of the U.S. and our allies to take down the Islamic State. 
+	Most Americans agree: -->
+	<title>Will we beat ISIL? President Obama expressed absolute confidence 
+	in the ability of the U.S. and our allies to take down the Islamic State. 
+	Most Americans agree:</title>
+		<slice id="1">
+			<label>will</label>
+			<eyeball>60%</eyeball>
+			<color>dark gray</color>
+		</slice>
+		<slice id="2">
+			<label>will Not</label>
+			<eyeball>24%</eyeball>
+			<color>gray</color>
+		</slice>
+		<slice id="3">
+			<label>unsure</label>
+			<eyeball>16%</eyeball>
+			<color>light gray</color>
+		</slice>
+</Piechart>

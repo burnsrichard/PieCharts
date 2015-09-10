@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P42-A">
+	<!-- Page title: Fentanyl Death Demographics in Phila. -->
+	<title>Sex</title>
+		<slice id="1">
+			<label>Male</label>
+			<annotated_value>77.2%</annotated_value>
+			<color>light blue</color>
+		</slice>
+		<slice id="2">
+			<label>Female</label>
+			<annotated_value>22.8%</annotated_value>
+			<color>pink</color>
+		</slice>
+</Piechart>

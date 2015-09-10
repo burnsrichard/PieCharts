@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P23">
+	<!-- Page title: Behind the Bloodshed -->
+	<title>The Majority of Mass Killings are Family-Related</title>
+		<slice id="1">
+			<label>family killings</label>
+			<annotated_value>53%</annotated_value>
+			<highlighted />
+		</slice>
+		<slice id="2">
+			<label>other/unknown</label>
+			<annotated_value>21%</annotated_value>
+		</slice>
+		<slice id="3">
+			<label>public killings</label>
+			<annotated_value>14%</annotated_value>
+		</slice>
+		<slice id="4">
+			<label>robbery/burglary</label>
+			<annotated_value>12%</annotated_value>
+		</slice>
+</Piechart>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P35">
+	<!-- Page title: Most Philly teachers hired within the last 15 years. -->
+	<title>Race demographic breakdown. 8225 Full-time teachers March 2015.</title>
+		<slice id="1">
+			<label>White</label>
+			<annotated_value>68%</annotated_value>
+			<numericvalue>5601</numericvalue>
+			<color>red</color>
+		</slice>
+		<slice id="2">
+			<label>Black</label>
+			<annotated_value>26%</annotated_value>
+			<numericvalue>2102</numericvalue>
+			<color>light blue</color>
+		</slice>
+		<slice id="3">
+			<label>Latino</label>
+			<eyeball>2%</eyeball>
+			<color>green</color>
+		</slice>
+		<slice id="4">
+			<label>Other</label>
+			<eyeball>2%</eyeball>
+			<color>gray</color>
+		</slice>
+</Piechart>

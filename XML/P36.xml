@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P36">
+	<!-- Page title: Ovarian cancer cases by stage. -->
+	<title>Ovarian cancer cases by stage.</title>
+		<slice id="1">
+			<label>Stage 3. Spread to abdominal lymph nodes</label>
+			<annotated_value>56%</annotated_value>
+			<color>pink</color>
+		</slice>
+		<slice id="2">
+			<label>Stage 1. Confined to ovaries</label>
+			<annotated_value>23%</annotated_value>
+			<color>yellow</color>
+		</slice>
+		<slice id="3">
+			<label>Stage 4. Spread to liver or beyond</label>
+			<annotated_value>11%</annotated_value>
+			<color>red</color>
+		</slice>
+		<slice id="4">
+			<label>Stage 2. Spread to the pelvic organs</label>
+			<annotated_value>10%</annotated_value>
+			<color>gray</color>
+		</slice>
+</Piechart>

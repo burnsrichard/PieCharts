@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P26-A">
+	<!-- Page title: Should vaccination remain a choice? Your say interactive -->
+	<title>Most Favor Vaccinations. When it comes to childhood diseases like 
+		measles, mumps and whooping cough:</title>
+		<slice id="1">
+			<label>require vaccinations</label>
+			<eyeball>60%</eyeball>
+			<color>dark gray</color>
+		</slice>
+		<slice id="2">
+			<label>allow opt-outs</label>
+			<eyeball>37%</eyeball>
+			<color>gray</color>
+		</slice>
+		<slice id="3">
+			<label>don't know/refused</label>
+			<eyeball>3%</eyeball>
+			<color>light gray</color>
+		</slice>
+</Piechart>

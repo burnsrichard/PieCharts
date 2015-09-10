@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P31">
+	<!-- Page title: Where Philadelphia Teachers Live. -->
+	<title>Half of the teachers in Philadelphia schools live outside of the city. Their 
+		union, the Philadelphia Federation of Teachers, held a closed door forum with 
+		the Democratic mayoral candidates this week.</title>
+		<slice id="1">
+			<label>Live in Philadelphia</label>
+			<eyeball>51%</eyeball>
+			<color>red</color>
+		</slice>
+		<slice id="2">
+			<label>Live in the suburbs</label>
+			<eyeball>40%</eyeball>
+			<color>dark pink</color>
+		</slice>
+		<slice id="3">
+			<label>Live in New Jersey</label>
+			<eyeball>8%</eyeball>
+			<color>pink</color>
+		</slice>
+		<slice id="4">
+			<label>Live in other states</label>
+			<eyeball>1%</eyeball>
+			<color>light pink</color>
+		</slice>
+</Piechart>

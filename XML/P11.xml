@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P11">
+	<!-- Page title: The average family's 401k loses $155,000 to "wall street" fees. -->
+	<title></title>
+		<slice id="1">
+			<label>Your Retirement</label>
+			<eyeball>67%</eyeball>
+		</slice>
+		<slice id="2">
+			<label>Wall Street fees</label>
+			<eyeball>33%</eyeball>
+		</slice>
+</Piechart>

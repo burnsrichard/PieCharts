@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P42-B">
+	<!-- Page title: Fentanyl Death Demographics in Phila. -->
+	<title>Race</title>
+		<slice id="1">
+			<label>White</label>
+			<annotated_value>64.9%</annotated_value>
+			<color>gray</color>
+		</slice>
+		<slice id="2">
+			<label>Black</label>
+			<annotated_value>22.8%</annotated_value>
+			<color>pink</color>
+		</slice>
+		<slice id="3">
+			<label>Hispanic</label>
+			<annotated_value>12.3%</annotated_value>
+			<color>orange</color>
+		</slice>
+</Piechart>

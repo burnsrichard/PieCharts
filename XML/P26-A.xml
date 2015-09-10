@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P26-A">
+	<!-- Page title: Bipartisan Support? The country is split on whether the proposal 
+	will get bipartisan support in Congress. -->
+	<title>Bipartisan Support? The country is split on whether the proposal 
+	will get bipartisan support in Congress.</title>
+		<slice id="1">
+			<label>will</label>
+			<eyeball>41%</eyeball>
+			<color>dark gray</color>
+		</slice>
+		<slice id="2">
+			<label>will Not</label>
+			<eyeball>46%</eyeball>
+			<color>gray</color>
+		</slice>
+		<slice id="3">
+			<label>unsure</label>
+			<eyeball>13%</eyeball>
+			<color>light gray</color>
+		</slice>
+</Piechart>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P32">
+	<!-- Page title: SIG partners major donors to scholarship credit program. -->
+	<title>Graphic: Educational tax credit claims on the rise | Philly. $50 million 2014-2015*</title>
+		<slice id="1">
+			<label>SIG partners</label>
+			<annotated_value>24%</annotated_value>
+			<numericvalue>12</numericvalue>
+			<color>yellow</color>
+			<highlighted />
+		</slice>
+		<slice id="2">
+			<label>Other participants</label>
+			<annotated_value>76%</annotated_value>
+			<numericvalue>38</numericvalue>
+			<color>gray</color>
+		</slice>
+		<footnote>*DCED estimate</footnote>
+</Piechart>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P43-B">
+	<!-- Page title: Overdose Reversals by Camden County Police. -->
+	<title>By gender</title>
+		<slice id="1">
+			<label>Male</label>
+			<annotated_value>77%</annotated_value>
+			<color>purple</color>
+		</slice>
+		<slice id="2">
+			<label>Female</label>
+			<annotated_value>23%</annotated_value>
+			<color>silver</color>
+		</slice>
+</Piechart>

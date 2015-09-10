@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P1">
+	<!-- Page title: The Afterlife of a Landfill -->
+	<title>US Methane Emissions</title>
+		<slice id="1">
+			<label>Natural gas and petroleum industry</label>
+			<annotated_value>37.5%</annotated_value>
+		</slice>
+		<slice id="2">
+			<label>Animal digestion</label>
+			<annotated_value>21.5%</annotated_value>
+		</slice>
+		<slice id="3">
+			<!-- slice is highlighted for message content -->
+			<highlighted />
+			<label>Landfills</label>
+			<annotated_value>16%</annotated_value>
+		</slice>
+		<slice id="4">
+			<label>Coal mining</label>
+			<annotated_value>11%</annotated_value>
+		</slice>
+		<slice id="5">
+			<label>Manure storage</label>
+			<annotated_value>8%</annotated_value>
+		</slice>
+		<slice id="6">
+			<label>Other</label>
+			<annotated_value>5%</annotated_value>
+		</slice>
+		<slice id="7">
+			<label>Wastewater treatment</label>
+			<annotated_value>2%</annotated_value>
+		</slice>
+		<footnote>Percents do not add up to 100 because of rounding.</footnote>
+</Piechart>

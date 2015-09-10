@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P9-B">
+	<!-- Page title: A Dismal Decade -->
+	<title></title>
+		<slice id="1">
+			<color>yellow</color>
+			<label>Percentage of prisoners reportedly turned over to coalition forces in 
+			response to a bounty offer</label>
+			<annotated_value>86%</annotated_value>
+		</slice>
+		<slice id="2">
+			<color>orange</color>
+			<label>Percentage of prisoners captured by US troops</label>
+			<annotated_value>5%</annotated_value>
+		</slice>
+		<slice id="3">
+			<color>gray</color>
+			<impliedslice />
+		</slice>
+</Piechart>

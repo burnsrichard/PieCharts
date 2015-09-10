@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P7">
+	<!-- Page title: When Humans are Hunted -->
+	<title>421 attacks 1988-2009, 282 killed 139 injuried</title>
+		<slice id="1">
+			<label>296 attacks moon below horizon</label>
+			<annotated_value>70%</annotated_value>
+			<numericvalue>296</numericvalue>
+		</slice>
+		<slice id="2">
+			<label>125 attaks moon above horizon</label>
+			<annotated_value>30%</annotated_value>
+			<numericvalue>125</numericvalue>
+		</slice>
+</Piechart>

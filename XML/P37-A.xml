@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P37-A">
+	<!-- Page title: The Landscape of Kenney's Big Win. -->
+	<title>Vote in majority black wards.</title>
+		<slice id="1">
+			<label>Kenney</label>
+			<annotated_value>46%</annotated_value>
+			<color>light blue</color>
+		</slice>
+		<slice id="2">
+			<label>Willaims</label>
+			<annotated_value>39%</annotated_value>
+			<color>pink</color>
+		</slice>
+		<slice id="3">
+			<label>Others</label>
+			<annotated_value>15%</annotated_value>
+			<color>yellow</color>
+		</slice>
+</Piechart>

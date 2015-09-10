@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P2">
+	<!-- Page title: This Time: A Greener Revolution? -->
+	<title></title>
+		<slice id="1">
+			<highlighted />
+			<label>Percentage of the world's land area with long-term decline in productivity</label>
+			<annotated_value>24%</annotated_value>
+		</slice>
+		<slice id="2">
+			<impliedslice />
+		</slice>
+</Piechart>

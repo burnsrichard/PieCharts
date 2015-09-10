@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P24">
+	<!-- 77% of mass killings involve a gun. But killers also have used everything from their
+	 hands to saws to baseball bats. Nearly one-third of victims were under age 18. -->
+	<title>Mass Killing Victims By Age, How Killed</title>
+		<slice id="1">
+			<label>gunshot</label>
+			<color>blue</color>
+			<eyeball>76%</eyeball>
+		</slice>
+		<slice id="2">
+			<label>smoke</label>
+			<color>orange</color>
+			<eyeball>8%</eyeball>
+		</slice>
+		<slice id="3">
+			<label>stabbing</label>
+			<color>yellow</color>
+			<eyeball>7%</eyeball>
+		</slice>
+		<slice id="4">
+			<label>blunt force</label>
+			<color>maroon</color>
+			<eyeball>5%</eyeball>
+		</slice>
+		<slice id="5">
+			<label>strangulation</label>
+			<color>green</color>
+			<eyeball>3%</eyeball>
+		</slice>
+		<slice id="6">
+			<label>drowned</label>
+			<color>light blue</color>
+			<eyeball>1%</eyeball>
+		</slice>
+</Piechart>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P1">
+	<!-- Page title: Depressing Pie Chart #1 -->
+	<title>US Methane Emissions</title>
+		<slice id="1">
+			<label>No evidence of compensation by Coast Guard contractors</label>
+			<annotated_value>44%</annotated_value>
+			<numericvalue>17</numericvalue>
+		</slice>
+		<slice id="2"> <!-- footnote applies -->
+			<label>Compensated by major Coast Guard contractors*</label>
+			<annotated_value>36%</annotated_value>
+			<numericvalue>14</numericvalue>
+		</slice>
+		<slice id="3">
+			<label>Compensated by major Coast Guard contractors</label>
+			<annotated_value>21%</annotated_value>
+			<numericvalue>8</numericvalue>
+		</slice>
+		<footnote>*Some of the individuals compensated by major Coast Guard contractors may have been also compensated by other Coast Guard contractors at some point during this period. Values sum to 101 due to rounding</footnote>
+</Piechart>

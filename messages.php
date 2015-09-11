@@ -31,7 +31,7 @@
     	foreach($dbh->query($sql) as $row) { ?>
         <tr>
             <td><?php echo $row["index"] ?></td>
-            <td><?php echo $row["messageCategories"] ?></td> 
+            <td><?php echo $row["messageCategory"] ?></td> 
             <td><?php echo $row["message"] ?></td>
             <td><a href="piechart.php?id=<?php echo $row["example"]?>">
              	<?php echo $row["example"]; ?></a> 

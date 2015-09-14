@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P56-2">
+	<!-- Page title: Tapping into Mobile Learning. -->
+	<title>Few schools allow students to use family-owned mobile devices in the classroom. 
+		Percentage of parents who say their child's school allows use of family owned 
+		mobile devices in the classroom.
+	</title>
+		<slice id="1">
+			<label>Yes</label>
+			<annotated_value>16%*</annotated_value>
+			<color>light blue</color>
+			<highlighted />
+		</slice>
+		<slice id="2">
+			<label>No</label>
+			<annotated_value>72%*</annotated_value>
+			<color>blue</color>
+		</slice>
+		<slice id="3">
+			<label>Don't know</label>
+			<annotated_value>10%*</annotated_value>
+			<color>blue</color>
+		</slice>
+		<footnote>*values do not add up to 100%</footnote>
+</Piechart>

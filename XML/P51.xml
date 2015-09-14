@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P51">
+	<!-- Page title: Behind the Split Over Linking Medicaid Coverage to Work Requirements. -->
+	<title>Main reasons for not working among uninsured adults who could gain 
+		Medicaid coverage. Total = 6.3 millon.</title>
+		<slice id="1">
+			<label>Taking care of home or family</label>
+			<annotated_value>29%</annotated_value>
+			<color>dark blue</color>
+		</slice>
+		<slice id="2">
+			<label>Could not find work</label>
+			<annotated_value>20%</annotated_value>
+			<color>light blue</color>
+		</slice>
+		<slice id="3">
+			<label>Going to school</label>
+			<annotated_value>18%</annotated_value>
+			<color>blue</color>
+		</slice>
+		<slice id="4">
+			<label>Ill or disabled</label>
+			<annotated_value>17%</annotated_value>
+			<color>dark dark blue</color>
+		</slice>
+		<slice id="5">
+			<label>Retired</label>
+			<annotated_value>10%</annotated_value>
+			<color>blue blue</color>
+		</slice>
+		<slice id="6">
+			<label>Other</label>
+			<annotated_value>6%</annotated_value>
+			<color>light light blue</color>
+		</slice>
+</Piechart>

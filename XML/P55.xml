@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P55">
+	<!-- Page title: Attitudes and Inspirations. -->
+	<title>State of creativity in education</title>
+		<slice id="1">
+			<label>Ideally wanted to spend time fostering creativity in the classroom</label>
+			<annotated_value>58%</annotated_value>
+			<color>pink</color>
+		</slice>
+		<slice id="2">
+			<label>Educators spent their time fostering creative skills in their classroom 
+				in the last one year
+			</label>
+			<annotated_value>45%</annotated_value>
+			<color>yellow</color>
+		</slice>
+</Piechart>

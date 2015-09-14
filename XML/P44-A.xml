@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P44-A">
+	<!-- Page title: Cuban Americans on Normalization. -->
+	<title>December 2014</title>
+		<slice id="1">
+			<label>Disagree</label>
+			<annotated_value>48%</annotated_value>
+			<color>brown</color>
+		</slice>
+		<slice id="2">
+			<label>Agree</label>
+			<annotated_value>44%</annotated_value>
+			<color>blue</color>
+		</slice>
+		<slice id="3">
+			<label>Don't know/no answer</label>
+			<annotated_value>8%</annotated_value>
+			<color>yellow</color>
+		</slice>
+</Piechart>

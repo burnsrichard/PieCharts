@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P45">
+	<!-- Page title: Trust in Christie Erodes. -->
+	<title>Trust in Christie Erodes</title>
+		<slice id="1">
+			<label>Not completely honest</label>
+			<annotated_value>69%</annotated_value>
+			<color>brown</color>
+		</slice>
+		<slice id="2">
+			<label>Completely honest</label>
+			<annotated_value>23%</annotated_value>
+			<color>blue</color>
+		</slice>
+		<slice id="3">
+			<label>Don't know</label>
+			<annotated_value>8%</annotated_value>
+			<color>yellow</color>
+		</slice>
+</Piechart>

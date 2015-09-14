@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P52-1">
+	<!-- Page title: Have you ever covered a presidential campaign? -->
+	<title>Have you ever covered a presidential campaign?</title>
+		<slice id="1">
+			<label>Yes</label>
+			<annotated_value>88%</annotated_value>
+			<color>light blue</color>
+		</slice>
+		<slice id="2">
+			<label>No</label>
+			<annotated_value>12%</annotated_value>
+			<color>gray</color>
+		</slice>
+</Piechart>

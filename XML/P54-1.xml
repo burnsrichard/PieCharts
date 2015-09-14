@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P54-1">
+	<!-- Page title: Educating the work force of the furure. -->
+	<title>"On time" completion rates are alarmingly low.</title>
+		<slice id="1">
+			<label>Only 56% complete four years schools within a six year window</label>
+			<annotated_value>56%</annotated_value>
+			<color>green</color>
+			<highlighted />
+		</slice>
+		<slice id="2">
+			<impliedslice />
+			<color>black</color>
+		</slice>
+</Piechart>

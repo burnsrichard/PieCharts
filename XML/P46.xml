@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P46">
+	<!-- Page title: Share of Conversations. -->
+	<title>Share of Conversations, last 24 hours.</title>
+		<slice id="1">
+			<label>Obama</label>
+			<eyeball>51%</eyeball>
+			<color>blue</color>
+		</slice>
+		<slice id="2">
+			<label>Romney</label>
+			<eyeball>49%</eyeball>
+			<color>red</color>
+		</slice>
+</Piechart>

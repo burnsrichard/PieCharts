@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P56-1">
+	<!-- Page title: Tapping into Mobile Learning. -->
+	<title>Few schools allow students to use family-owned mobile devices in the classroom. 
+		Percentage of parents who say their child's school requires the use of mobile or 
+		portable devices in the classroom.</title>
+		<slice id="1">
+			<label>Required</label>
+			<annotated_value>17%</annotated_value>
+			<color>yellow</color>
+			<highlighted />
+		</slice>
+		<slice id="2">
+			<label>Not required</label>
+			<annotated_value>83%</annotated_value>
+			<color>blue</color>
+		</slice>
+</Piechart>

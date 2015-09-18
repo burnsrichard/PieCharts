@@ -31,6 +31,7 @@
             }else 
                 echo $row["Date"];
                 echo " | " . $row["Source"] . "<br>";
+                echo '<a href ="XML/'. $id .'.xml"> xml representation of chart </a>';
         	    echo "<h3>" . $row["Headline"] . "</h3>" . $row["HeadlineText"] . "<br>";
                 echo $row["Caption"] . "<br>";
                 echo $row["Caption Text"] . "<br>";

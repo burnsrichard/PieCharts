@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P69">
+	<!-- Page title: Battle Weary. Most Americans favor a withdrawal from Iraq, and John McCain
+	 is a more polarizing figure on the issue than his Democratic presidential rivals. -->
+	<title>Preferred stragedy</title>
+		<slice id="1">
+			<label>Withdraw most troops by 2009</label>
+			<annotated_value>55%</annotated_value>
+			<color>dark gray</color>
+		</slice>
+		<slice id="2">
+			<label>Remain until the situation is stable</label>
+			<annotated_value>40%</annotated_value>
+			<color>gray</color>
+		</slice>
+		<slice id="3">
+			<label>Not sure</label>
+			<annotated_value>5%</annotated_value>
+			<color>gray</color>
+		</slice>
+</Piechart>

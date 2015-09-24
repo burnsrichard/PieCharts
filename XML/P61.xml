@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P61">
+	<!-- Page title: Does your school offer or plan to offer any type of online courses? -->
+	<title>Factors that affect student achievement.</title>
+		<slice id="1">
+			<label>Offer now</label>
+			<annotated_value>74%</annotated_value>
+			<color>orange</color>
+		</slice>
+		<slice id="2">
+			<label>Plan to offer within 3 years</label>
+			<annotated_value>16%</annotated_value>
+			<color>yellow</color>
+		</slice>
+		<slice id="3">
+			<label>No plans to offer</label>
+			<annotated_value>10%</annotated_value>
+			<color>green</color>
+		</slice>
+</Piechart>

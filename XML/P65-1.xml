@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P65-1">
+	<!-- Page title: Social Network Overload. -->
+	<title>Social Network Overload</title>
+		<slice id="1">
+			<label>2 in 3 are afraid of missing something if they don't keep an eye on their
+				social networks
+			</label>
+			<annotated_value>62%</annotated_value>
+			<color>green</color>
+		</slice>
+		<slice id="2">
+			<impliedslice />
+			<color>blue</color>
+		</slice>
+</Piechart>

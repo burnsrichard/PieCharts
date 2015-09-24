@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P70-1">
+	<!-- Page title: A New Tech Titan? A look at how Hewlett-Packard and Electronic 
+	Data Systems stack up: -->
+	<title>H-P $105.71</title>
+		<slice id="1">
+			<label>Personal systems</label>
+			<numericvalue>$36.41*</numericvalue>
+			<color>gray</color>
+		</slice>
+		<slice id="2">
+			<label>Services</label>
+			<numericvalue>$16.65*</numericvalue>
+			<color>dark gray</color>
+			<highlighted />
+		</slice>
+		<slice id="3">
+			<label>Corporate investments, financial services</label>
+			<numericvalue>$3.10*</numericvalue>
+			<color>gray</color>
+		</slice>
+		<slice id="4">
+			<label>Storage and servers</label>
+			<numericvalue>$18.77*</numericvalue>
+			<color>gray</color>
+		</slice>
+		<slice id="5">
+			<label>Software</label>
+			<numericvalue>$2.33*</numericvalue>
+			<color>gray</color>
+		</slice>
+		<slice id="6">
+			<label>Imaging and printing</label>
+			<numericvalue>$28.47*</numericvalue>
+			<color>gray</color>
+		</slice>
+		<footnote>*2007 revenue by business segment, in billions</footnote>
+</Piechart>

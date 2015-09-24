@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P58">
+	<!-- Page title: Shocking Education Statistics. -->
+	<title>Factors that affect student achievement.</title>
+		<slice id="1">
+			<label>Effective principles and teachers</label>
+			<annotated_value>60%</annotated_value>
+			<color>green</color>
+		</slice>
+		<slice id="2">
+			<label>Other factors</label>
+			<annotated_value>40%</annotated_value>
+			<color>blue</color>
+		</slice>
+</Piechart>

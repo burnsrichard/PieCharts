@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P65-5">
+	<!-- Page title: Social Network Overload. -->
+	<title>Social Network Overload</title>
+		<slice id="1">
+			<label>Those aged 18-34 log onto their social networking profiles after they wake up
+				before they check email
+			</label>
+			<annotated_value>38%</annotated_value>
+			<color>green</color>
+		</slice>
+		<slice id="2">
+			<impliedslice />
+			<color>blue</color>
+		</slice>
+</Piechart>

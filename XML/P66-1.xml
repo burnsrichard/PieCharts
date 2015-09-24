@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P66-1">
+	<!-- Page title: What makes a travel writer. -->
+	<title>Age of Travelers</title>
+		<slice id="1">
+			<label>18-30</label>
+			<annotated_value>49%</annotated_value>
+			<color>orange</color>
+		</slice>
+		<slice id="2">
+			<label>31-40</label>
+			<annotated_value>29%</annotated_value>
+			<color>blue</color>
+		</slice>
+		<slice id="3">
+			<label>41+</label>
+			<annotated_value>22%</annotated_value>
+			<color>light blue</color>
+		</slice>
+</Piechart>

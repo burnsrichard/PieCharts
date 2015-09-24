@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P64-2">
+	<!-- Page title: If you had to choose, what would you say is the gender of your computer? -->
+	<title>Females responded</title>
+		<slice id="1">
+			<label>said female</label>
+			<annotated_value>60%</annotated_value>
+			<color>red</color>
+		</slice>
+		<slice id="2">
+			<label>said male</label>
+			<annotated_value>40%</annotated_value>
+			<color>blue</color>
+		</slice>
+</Piechart>

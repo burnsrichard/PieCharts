@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P67-1">
+	<!-- Page title: The changing role of the CIO -->
+	<title>Sources of CIO success</title>
+		<slice id="1">
+			<label>Business results</label>
+			<annotated_value>37%</annotated_value>
+			<color>dark red</color>
+		</slice>
+		<slice id="2">
+			<label>Business knowledge</label>
+			<annotated_value>29%</annotated_value>
+			<color>red</color>
+		</slice>
+		<slice id="3">
+			<label>C-level relationships</label>
+			<annotated_value>14%</annotated_value>
+			<color>orange</color>
+		</slice>
+		<slice id="4">
+			<label>Business relationships</label>
+			<annotated_value>8%</annotated_value>
+			<color>light orange</color>
+		</slice>
+		<slice id="5">
+			<label>IT knowledge</label>
+			<annotated_value>6%</annotated_value>
+			<color>yellow</color>
+		</slice>
+		<slice id="6">
+			<label>IT relationships</label>
+			<annotated_value>3%</annotated_value>
+			<color>yellow-green</color>
+		</slice>
+		<slice id="7">
+			<label>Authority as CIO</label>
+			<annotated_value>2%</annotated_value>
+			<color>light green</color>
+		</slice>
+		<slice id="8">
+			<label>Vendor relationships</label>
+			<annotated_value>1%</annotated_value>
+			<color>green</color>
+		</slice>
+</Piechart>

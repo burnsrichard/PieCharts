@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P71">
+	<!-- Page title: TV Program. Sony's no-frills Bravia M-series television is part of a push 
+	to revive the consumer-electronics unit, one of the company's biggest. -->
+	<title>2007 Sony revenue by segment. 8.3 trillion</title>
+		<slice id="1">
+			<label>Electronics</label>
+			<annotated_value>65.4%</annotated_value>
+			<color>orange</color>
+			<highlighted />
+		</slice>
+		<slice id="2">
+			<label>Other</label>
+			<annotated_value>3.7%</annotated_value>
+			<color>yellow</color>
+		</slice>
+		<slice id="3">
+			<label>Financial services</label>
+			<annotated_value>7.5%</annotated_value>
+			<color>yellow</color>
+		</slice>
+		<slice id="4">
+			<label>Pictures</label>
+			<annotated_value>11.7%</annotated_value>
+			<color>yellow</color>
+		</slice>
+		<slice id="5">
+			<label>Game</label>
+			<annotated_value>11.7%</annotated_value>
+			<color>yellow</color>
+		</slice>
+</Piechart>

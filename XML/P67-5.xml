@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P67-4">
+	<!-- Page title: The changing role of the CIO -->
+	<title>How CIOS spend time: Successful top 6% of CIOS spend their time differently</title>
+		<slice id="1">
+			<label>Business stakeholders</label>
+			<annotated_value>46%</annotated_value>
+			<color>orange</color>
+		</slice>
+		<slice id="2">
+			<label>IT team</label>
+			<annotated_value>26%</annotated_value>
+			<color>gray</color>
+		</slice>
+		<slice id="3">
+			<label>Elsewhere</label>
+			<annotated_value>28%</annotated_value>
+			<color>light gray</color>
+		</slice>
+</Piechart>

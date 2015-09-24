@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P63-1">
+	<!-- Page title: Plummeting School Budgets -->
+	<title>How do you believe the budget has changed in your school district within the last
+		 year?
+	</title>
+		<slice id="1">
+			<label>Decreased</label>
+			<annotated_value>76%</annotated_value>
+			<color>dark brown</color>
+		</slice>
+		<slice id="2">
+			<label>Stayed the same</label>
+			<annotated_value>12%</annotated_value>
+			<color>brown</color>
+		</slice>
+		<slice id="3">
+			<label>Increased</label>
+			<annotated_value>5%</annotated_value>
+			<color>light brown</color>
+		</slice>
+		<slice id="4">
+			<label>Not sure</label>
+			<annotated_value>7%</annotated_value>
+			<color>yellow</color>
+		</slice>
+</Piechart>

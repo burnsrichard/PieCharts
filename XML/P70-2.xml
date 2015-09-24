@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P70-2">
+	<!-- Page title: A New Tech Titan? A look at how Hewlett-Packard and Electronic 
+	Data Systems stack up: -->
+	<title>EDS $22.13</title>
+		<slice id="1">
+			<label>Outsourcing</label>
+			<numericvalue>$21.22*</numericvalue>
+			<color>dark gray</color>
+		</slice>
+		<slice id="2">
+			<label>Other</label>
+			<numericvalue>$0.92*</numericvalue>
+			<color>gray</color>
+		</slice>
+		<footnote>*2007 revenue by business segment, in billions</footnote>
+</Piechart>

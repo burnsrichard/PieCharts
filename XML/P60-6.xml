@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P60-6">
+	<!-- Page title: The 5 W's of special Ed. -->
+	<title>Professional who diagnosed child's condition.</title>
+		<slice id="1">
+			<label>Psychiatrist</label>
+			<annotated_value>7.9%*</annotated_value>
+			<color>blue</color>
+		</slice>
+		<slice id="2">
+			<label>Multidisciplinary team</label>
+			<annotated_value>8.7%*</annotated_value>
+			<color>green</color>
+		</slice>
+		<slice id="3">
+			<label>Neurologist</label>
+			<annotated_value>12.4%*</annotated_value>
+			<color>red</color>
+		</slice>
+		<slice id="4">
+			<label>Developmental or Specialist Pediatrician</label>
+			<annotated_value>14.7%*</annotated_value>
+			<color>pink</color>
+		</slice>
+		<slice id="5">
+			<label>Other health provider</label>
+			<annotated_value>18.3%*</annotated_value>
+			<color>dark green</color>
+		</slice>
+		<slice id="6">
+			<label>Generalist</label>
+			<annotated_value>19.5%*</annotated_value>
+			<color>light green</color>
+		</slice>
+		<footnote>*values add up to 81.5%</footnote> 
+</Piechart>

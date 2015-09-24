@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P65-2">
+	<!-- Page title: Social Network Overload. -->
+	<title>Social Network Overload</title>
+		<slice id="1">
+			<label>Goes up to almost 3 in 4 if single</label>
+			<annotated_value>72%</annotated_value>
+			<color>green</color>
+		</slice>
+		<slice id="2">
+			<impliedslice />
+			<color>blue</color>
+		</slice>
+</Piechart>

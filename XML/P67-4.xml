@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P67-3">
+	<!-- Page title: The changing role of the CIO -->
+	<title>How CIOS spend time: On average, most CIOS spend their time with:</title>
+		<slice id="1">
+			<label>Business leaders</label>
+			<annotated_value>37%</annotated_value>
+			<color>orange</color>
+		</slice>
+		<slice id="2">
+			<label>Other stakeholders</label>
+			<annotated_value>27%</annotated_value>
+			<color>gray</color>
+		</slice>
+		<slice id="3">
+			<label>IT team</label>
+			<annotated_value>36%</annotated_value>
+			<color>light gray</color>
+		</slice>
+</Piechart>

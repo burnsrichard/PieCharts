@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P65-3">
+	<!-- Page title: Social Network Overload. -->
+	<title>Social Network Overload</title>
+		<slice id="1">
+			<label>Almost 3 in 5 wish there was a solution to help them use, monitor and
+				protect their social networking profiles and emails at once
+			</label>
+			<annotated_value>57%</annotated_value>
+			<color>green</color>
+		</slice>
+		<slice id="2">
+			<impliedslice />
+			<color>blue</color>
+		</slice>
+</Piechart>

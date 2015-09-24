@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P72">
+	<!-- Portion of Latin American Immigrants who say it's harder to get a good-paying job 
+	now than it was last year -->
+	<title>Tough times</title>
+		<slice id="1">
+			<label>Harder</label>
+			<annotated_value>81%</annotated_value>
+			<color>dark gray</color>
+		</slice>
+		<slice id="2">
+			<label>Easier</label>
+			<annotated_value>10%</annotated_value>
+			<color>gray</color>
+		</slice>
+		<slice id="3">
+			<label>No answer</label>
+			<annotated_value>9%</annotated_value>
+			<color>gray</color>
+		</slice>
+</Piechart>

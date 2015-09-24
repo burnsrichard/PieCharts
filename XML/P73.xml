@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P73">
+	<!-- Rolling in the Dough. Kraft became the No. 1 biscuit maker in China by tailoring the 
+	Oreo to local tastes. Chinese biscuit market share, fiscal 2007. -->
+	<title>Total market: 1.3 billion</title>
+		<slice id="1">
+			<label>Kraft</label>
+			<annotated_value>23.4%</annotated_value>
+			<color>blue</color>
+			<highlighted />
+		</slice>
+		<slice id="2">
+			<label>Nestle</label>
+			<annotated_value>3.0%</annotated_value>
+			<color>gray</color>
+		</slice>
+		<slice id="3">
+			<label>Others</label>
+			<annotated_value>73.6%</annotated_value>
+			<color>gray</color>
+		</slice>
+</Piechart>

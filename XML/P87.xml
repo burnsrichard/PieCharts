@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P87">
+	<!-- Preferred Method of Receiving Mobile Coupons According to U.S. Mobile Phone Owners  -->
+	<title>Preferred Method of Receiving Mobile Coupons According to U.S. Mobile Phone Owners</title>
+		<slice id="1">
+			<label>Sent via text message</label>
+			<eyeball>25%</eyeball>
+			<color>black</color>
+		</slice>
+		<slice id="2">
+			<label>Sent via email on mobile</label>
+			<eyeball>20%</eyeball>
+			<color>pink</color>
+		</slice>
+		<slice id="3">
+			<label>Text to receive them while at store</label>
+			<eyeball>18%</eyeball>
+			<color>light blue</color>
+		</slice>
+		<slice id="4">
+			<label>Find them using an app</label>
+			<eyeball>15%</eyeball>
+			<color>blue</color>
+		</slice>
+		<slice id="5">
+			<label>Scan QR code to receive</label>
+			<eyeball>12%</eyeball>
+			<color>yellow</color>
+		</slice>
+		<slice id="6">
+			<label>Get them in exchange for checking in</label>
+			<eyeball>10%</eyeball>
+			<color>green</color>
+		</slice>
+</Piechart>

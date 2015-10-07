@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P91">
+	<!-- Time Spent Grabbing Coffee.  -->
+	<title>Time Spent Grabbing Coffee</title>
+		<slice id="1">
+			<label>Instagramming #coffee #vscocam #coffeegram #coffeeaddict 
+				#lightroast #humpday
+			</label>
+			<eyeball>20%</eyeball>
+			<color>brown</color>
+		</slice>
+		<slice id="2">
+			<label>Drinking coffee</label>
+			<eyeball>3%</eyeball>
+			<color>light brown</color>
+		</slice>
+		<slice id="3">
+			<label>Waiting in line</label>
+			<eyeball>77%</eyeball>
+			<color>dotted brown</color>
+		</slice>
+</Piechart>

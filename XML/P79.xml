@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P79">
+	<!-- Great Divide. While fewer than half of Republicans say they are satisfied with their party's
+	presidential nominee, John McCain is competitive against either Democratic candidate in a
+	general-election matchup.  -->
+	<title>Great Divide</title>
+		<slice id="1">
+			<label>Would have preferred someone else</label>
+			<annotated_value>52%*</annotated_value>
+			<color>gray</color>
+		</slice>
+		<slice id="2">
+			<label>Satisfied that McCain is the nominee</label>
+			<annotated_value>44%*</annotated_value>
+			<color>light gray</color>
+		</slice>
+		<slice id="3">
+			<label>Not sure</label>
+			<annotated_value>4%*</annotated_value>
+			<color>light gray</color>
+		</slice>
+		<footnote>*1012 registered voters nation wide</footnote>
+</Piechart>

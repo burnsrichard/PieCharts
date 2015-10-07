@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P96">
+	<!-- Hours spent watching football among NFL viewers. Among adults who watch football on TV, six 
+	in ten say they spend 5 hours or less per week watching during the NFL season.  -->
+	<title>Hours spent watching football among NFL viewers</title>
+		<slice id="1">
+			<label>5 hours or less</label>
+			<annotated_value>60%</annotated_value>
+			<color>red</color>
+		</slice>
+		<slice id="2">
+			<label>6-10 hours</label>
+			<annotated_value>27%</annotated_value>
+			<color>gray</color>
+		</slice>
+		<slice id="3">
+			<label>11-15 hours</label>
+			<annotated_value>7%</annotated_value>
+			<color>green</color>
+		</slice>
+		<slice id="4">
+			<label>16 hours or more</label>
+			<annotated_value>6%</annotated_value>
+			<color>dark gray</color>
+		</slice>
+</Piechart>

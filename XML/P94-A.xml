@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P94-A">
+	<!-- Sex and The City. Even though female members of Facebook seem to be far more active 
+	users, figures show an almost equal number of registered male and female members.  -->
+	<title>Sex and The City</title>
+		<slice id="1">
+			<label>Men</label>
+			<numericvalue>298*</numericvalue>
+			<color>blue</color>
+		</slice>
+		<slice id="2">
+			<label>Women</label>
+			<numericvalue>288*</numericvalue>
+			<color>red</color>
+		</slice>
+		<slice id="3">
+			<label>Unknown</label>
+			<numericvalue>10*</numericvalue>
+			<color>yellow</color>
+		</slice>
+		<footnote>*Users in millions</footnote>
+</Piechart>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P92">
+	<!-- What People Tweet.  -->
+	<title>What People Tweet</title>
+		<slice id="1">
+			<label>Pass along value (Retweets)</label>
+			<eyeball>12%</eyeball>
+			<color>pink</color>
+		</slice>
+		<slice id="2">
+			<label>News</label>
+			<eyeball>4%</eyeball>
+			<color>yellow</color>
+		</slice>
+		<slice id="3">
+			<label>Spam</label>
+			<eyeball>4%</eyeball>
+			<color>orange</color>
+		</slice>
+		<slice id="4">
+			<label>Self-Promotion</label>
+			<eyeball>10%</eyeball>
+			<color>green</color>
+		</slice>
+		<slice id="5">
+			<label>Pointless Babble</label>
+			<eyeball>35%</eyeball>
+			<color>light blue</color>
+		</slice>
+		<slice id="6">
+			<label>Conversational</label>
+			<eyeball>35%</eyeball>
+			<color>blue</color>
+		</slice>
+</Piechart>

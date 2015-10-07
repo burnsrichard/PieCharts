@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P77">
+	<!-- Flash Focus. Market shares of suppliers of NOR flash memory chips in the fourth quarter of
+	 2007. STMicro and Intel are combining their flash memory businesses into a new company called
+	 Numonyx.  -->
+	<title>Flash Focus</title>
+		<slice id="1">
+			<label>STMicroelectronics</label>
+			<annotated_value>13.9%*</annotated_value>
+			<color>gray</color>
+		</slice>
+		<slice id="2">
+			<label>Intel</label>
+			<annotated_value>21.8%*</annotated_value>
+			<color>gray</color>
+		</slice>
+		<slice id="3">
+			<label>Spansion</label>
+			<annotated_value>33.6%*</annotated_value>
+			<color>light gray</color>
+		</slice>
+		<slice id="4">
+			<label>Samsung</label>
+			<annotated_value>15.0%*</annotated_value>
+			<color>light gray</color>
+		</slice>
+		<slice id="5">
+			<label>Others</label>
+			<annotated_value>15.7%*</annotated_value>
+			<color>light gray</color>
+		</slice>
+		<footnote>*Total revenue $1.94 billion</footnote>
+</Piechart>

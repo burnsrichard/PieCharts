@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P90">
+	<!-- 5 ways mobile devices have changed the way people consume media. The average mobile web user
+	consumes 7.2 hours of media daily. Mobile devices represent 27% of this time.  -->
+	<title>5 ways mobile devices have changed the way people consume media</title>
+		<slice id="1">
+			<label>PC*</label>
+			<numericvalue>114*</numericvalue>
+			<color>green</color>
+		</slice>
+		<slice id="2">
+			<label>mobile phone*</label>
+			<numericvalue>117*</numericvalue>
+			<color>dark dark blue</color>
+		</slice>
+		<slice id="3">
+			<label>TV*</label>
+			<numericvalue>98*</numericvalue>
+			<color>light blue</color>
+		</slice>
+		<slice id="4">
+			<label>radio*</label>
+			<numericvalue>49*</numericvalue>
+			<color>blue</color>
+		</slice>
+		<slice id="5">
+			<label>reading*</label>
+			<numericvalue>33*</numericvalue>
+			<color>dark blue</color>
+		</slice>
+		<slice id="6">
+			<impliedslice />
+			<color>gray</color>
+		</slice>
+		<footnote>*numeric values represented in minutes. 100% = 720 minutes.
+			labels are graphic pictures of objects.
+		</footnote>
+</Piechart>

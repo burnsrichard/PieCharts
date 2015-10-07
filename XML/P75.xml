@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P75">
+	<!-- The Sweet Spot. Wrigley would add gum to the Mars menu. Gum is the smallest confection
+	 segment, but it is growing fastest.  -->
+	<title>Global market size, in billions, 2007</title>
+		<slice id="1">
+			<label>Gum</label>
+			<numericvalue>$20.1*</numericvalue>
+			<color>black</color>
+			<highlighted />
+		</slice>
+		<slice id="2">
+			<label>Sugar</label>
+			<numericvalue>$44.3*</numericvalue>
+			<color>light gray</color>
+		</slice>
+		<slice id="3">
+			<label>Chocolate</label>
+			<numericvalue>$76.9*</numericvalue>
+			<color>gray</color>
+		</slice>
+		<footnote>*In U.S> dollar terms.</footnote> 
+</Piechart>

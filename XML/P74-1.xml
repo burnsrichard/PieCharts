@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P74-1">
+	<!-- Down Mexico Way. Kimco Realty Corp. is allocating an increasing portion of its 
+	development budget to projects in Mexico. Here, the company's Centro Sur Plaza in 
+	Guadalajara.  -->
+	<title>Percentage for Mexico</title>
+		<slice id="1">
+			<label>2005</label>
+			<annotated_value>20%</annotated_value>
+			<color>dark gray</color>
+		</slice>
+		<slice id="2">
+			<impliedslice />
+			<color>gray</color>
+		</slice>
+</Piechart>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P93">
+	<!-- 1/4 of Twitter users regularly use Twitter throughout the day.  -->
+	<title>1/4 of Twitter users regularly use Twitter throughout the day</title>
+		<slice id="1">
+			<label>Several times a day</label>
+			<annotated_value>24%</annotated_value>
+			<color>red</color>
+			<highlighted />
+		</slice>
+		<slice id="2">
+			<label>Never</label>
+			<annotated_value>21%</annotated_value>
+			<color>orange</color>
+		</slice>
+		<slice id="3">
+			<label>Less often</label>
+			<annotated_value>20%</annotated_value>
+			<color>light orange</color>
+		</slice>
+		<slice id="4">
+			<label>Once a day</label>
+			<annotated_value>12%</annotated_value>
+			<color>light light orange</color>
+		</slice>
+		<slice id="5">
+			<label>1-2 days per week</label>
+			<annotated_value>12%</annotated_value>
+			<color>light light orange</color>
+		</slice>
+		<slice id="6">
+			<label>Every few weeks</label>
+			<annotated_value>7%</annotated_value>
+			<color>yellow</color>
+		</slice>
+		<slice id="7">
+			<label>3-5 days per week</label>
+			<annotated_value>5%</annotated_value>
+			<color>dark yellow</color>
+		</slice>
+</Piechart>

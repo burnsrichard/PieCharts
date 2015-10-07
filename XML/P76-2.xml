@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P76-2">
+	<!-- A Skeptical Mood. Americans have relatively dim views of the president, Congress and the 
+	political parties.  -->
+	<title>Congress</title>
+		<slice id="1">
+			<label>Approve</label>
+			<annotated_value>19%*</annotated_value>
+			<color>black</color>
+			<highlighted />
+		</slice>
+		<slice id="2">
+			<label>Disapprove</label>
+			<annotated_value>69%*</annotated_value>
+			<color>gray</color>
+		</slice>
+		<slice id="3">
+			<label>not sure</label>
+			<annotated_value>12%*</annotated_value>
+			<color>light gray</color>
+		</slice>
+		<footnote>*1012 registered voters nation wide</footnote>
+</Piechart>

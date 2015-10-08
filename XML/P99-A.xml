@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P99-A">
+	<!-- 25 Amazing Food Infographics, Drawn From 49,733 Recipes. 8 Tons of Protein.
+	What's for dinner? We tallied the top three proteins mentioned in every recipe on the site 
+	and figured out the weight of all that meat.  -->
+	<title>8 Tons of Protein</title>
+		<slice id="1">
+			<label>Pork</label>
+			<numericvalue>4,677*</numericvalue>
+			<annotated_value>29.37%</annotated_value>
+			<color>blue</color>
+		</slice>
+		<slice id="2">
+			<label>Beef</label>
+			<numericvalue>4,989*</numericvalue>
+			<annotated_value>31.33%</annotated_value>
+			<color>gray</color>
+		</slice>
+		<slice id="3">
+			<label>Chicken</label>
+			<numericvalue>6,258*</numericvalue>
+			<annotated_value>39.3%</annotated_value>
+			<color>orange</color>
+		</slice>
+		<footnote>*values in pounds</footnote>
+</Piechart>

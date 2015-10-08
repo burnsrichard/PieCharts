@@ -1,0 +1,53 @@
+<!-- chart colors do not match key -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P97">
+	<!-- Sources of Greenhouse Gases.  -->
+	<title>Sources of Greenhouse Gases</title>
+		<slice id="1">
+			<label></label>
+			<annotated_value></annotated_value>
+			<color></color>
+		</slice>
+		<slice id="2">
+			<label></label>
+			<annotated_value></annotated_value>
+			<color></color>
+		</slice>
+		<slice id="3">
+			<label></label>
+			<annotated_value></annotated_value>
+			<color></color>
+		</slice>
+		<slice id="4">
+			<label></label>
+			<annotated_value></annotated_value>
+			<color></color>
+		</slice>
+		<slice id="5">
+			<label></label>
+			<annotated_value></annotated_value>
+			<color></color>
+		</slice>
+		<slice id="6">
+			<label></label>
+			<annotated_value></annotated_value>
+			<color></color>
+		</slice>
+		<slice id="7">
+			<label></label>
+			<annotated_value></annotated_value>
+			<color></color>
+		</slice>
+		<slice id="8">
+			<label></label>
+			<annotated_value></annotated_value>
+			<color></color>
+		</slice>
+		<slice id="9">
+			<label></label>
+			<annotated_value></annotated_value>
+			<color></color>
+		</slice>
+</Piechart>

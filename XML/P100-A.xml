@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P100-A">
+	<!-- Three Pie Charts That Prove You Shouldn't Slack Off in College. The first pie chart shows
+	that college students spent almost three quarters of their time sleeping or socializing. 
+	Time use by college seniors. Percentages are based on a full seven-day week totaling 168 
+	hours.-->
+	<title>Students who didn't take school seriously failed after college</title>
+		<slice id="1">
+			<label>Attending class</label>
+			<annotated_value>8%*</annotated_value>
+			<color>light gray</color>
+		</slice>
+		<slice id="2">
+			<label>Studying</label>
+			<annotated_value>7%*</annotated_value>
+			<color>gray</color>
+		</slice>
+		<slice id="3">
+			<label>Working, volunteering, fraternities/sororities, and student clubs</label>
+			<annotated_value>11%*</annotated_value>
+			<color>dark gray</color>
+		</slice>
+		<slice id="4">
+			<label>Sleeping</label>
+			<annotated_value>28%*</annotated_value>
+			<color>black</color>
+		</slice>
+		<slice id="5">
+			<label>Socializing, recreating, and other</label>
+			<annotated_value>46%*</annotated_value>
+			<color>white</color>
+		</slice>
+		<footnote>
+			*Percentages are based on a full seven-day week totaling 168 hours
+		</footnote>
+</Piechart>

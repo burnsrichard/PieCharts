@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P102-A">
+	<!-- Pie chart: Apple's outrageous share of the mobile industry's profits. Mobile handsets sold 
+	Jan. to June 2010-->
+	<title>Mobile handsets sold Jan. to June 2010</title>
+		<slice id="1">
+			<label>Nokia, Samsung and LG</label>
+			<numericvalue>400*</numericvalue>
+			<color>blue</color>
+		</slice>
+		<slice id="2">
+			<label>Apple</label>
+			<numericvalue>17*</numericvalue>
+			<color>red</color>
+		</slice>
+		<slice id="3">
+			<label>Others</label>
+			<numericvalue>190*</numericvalue>
+			<color>green</color>
+		</slice>
+		<footnote>*numeric values in millions</footnote>
+</Piechart>

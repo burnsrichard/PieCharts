@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P104-A">
+	<!-- Why Germany Is So Good At Soccer (and the U.S. Is So Mediocre) in 2 Charts. 
+	Distribution of German Sports League Revenue Circa 2012-13, In the two charts below, 
+	the green pie slice represents the percentage of major team sports revenue that goes to 
+	soccer. As you can see, it's not even close. -->
+	<title>Distribution of German Sports League Revenue Circa 2012-13</title>
+		<slice id="1">
+			<label>Major Soccer Leagues</label>
+			<annotated_value>91.2%</annotated_value>
+			<color>green</color>
+		</slice>
+		<slice id="2">
+			<label>Basketball (BBL)</label>
+			<eyeball>2.93%</eyeball>
+			<color>blue</color>
+		</slice>
+		<slice id="3">
+			<label>Ice Hockey (DEL)</label>
+			<eyeball>2.93%</eyeball>
+			<color>red</color>
+		</slice>
+		<slice id="4">
+			<label>Handball (HBL)</label>
+			<eyeball>2.93%</eyeball>
+			<color>orange</color>
+		</slice>
+</Piechart>

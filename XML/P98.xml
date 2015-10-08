@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P98">
+	<!-- Facebook Knows How You Laugh.  -->
+	<title>Facebook Knows How You Laugh</title>
+		<slice id="1">
+			<label>haha</label>
+			<annotated_value>51.4%</annotated_value>
+			<color>pink</color>
+		</slice>
+		<slice id="2">
+			<label>lol</label>
+			<annotated_value>1.9%</annotated_value>
+			<color>green</color>
+		</slice>
+		<slice id="3">
+			<label>hehe</label>
+			<annotated_value>13.1%</annotated_value>
+			<color>blue</color>
+		</slice>
+		<slice id="4">
+			<label>emoji</label>
+			<annotated_value>33.7%</annotated_value>
+			<color>brown</color>
+		</slice>
+</Piechart>

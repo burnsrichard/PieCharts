@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P106">
+	<!-- Most Important Pie Chart You'll See Today: 13,950 Peer-Reviewed Scientific Articles 
+	on Earth's Climate. 13,950 peer-reviewed climate articles 1991-2012 24 reject global warming.
+	Is There Still a Scientific Consensus on Global Warming? -->
+	<title></title>
+		<slice id="1">
+			<label>Peer-reviewed climate change articles 1991-2002</label>
+			<numericvalue>13,950</numericvalue>
+			<eyeball>99.83%</eyeball>
+			<color>black</color>
+		</slice>
+		<slice id="2">
+			<label>Reject global warming</label>
+			<numericvalue>24</numericvalue>
+			<eyeball>0.17%</eyeball>
+			<color>red</color>
+		</slice>
+</Piechart>

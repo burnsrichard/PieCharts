@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P100-B">
+	<!-- Three Pie Charts That Prove You Shouldn't Slack Off in College. Two years after college,
+	 only a little over a quarter of the students had landed jobs paying better than $40,000 a 
+	 year, as this chart shows. Employment outcomes and incomes of college graduates two years 
+	 after on-time graduation.-->
+	<title>Students who didn't take school seriously failed after college</title>
+		<slice id="1">
+			<label>Unemployed</label>
+			<annotated_value>7%*</annotated_value>
+			<color>light gray</color>
+		</slice>
+		<slice id="2">
+			<label>Underemployed (>20 hours)</label>
+			<annotated_value>4%*</annotated_value>
+			<color>gray</color>
+		</slice>
+		<slice id="3">
+			<label>Part time (20-35 hours)</label>
+			<annotated_value>12%*</annotated_value>
+			<color>black</color>
+			<highlighted />
+		</slice>
+		<slice id="4">
+			<label>Full-time (<$20k)</label>
+			<annotated_value>15%*</annotated_value>
+			<color>gray</color>
+		</slice>
+		<slice id="5">
+			<label>Full-time ($20-30k)</label>
+			<annotated_value>15%*</annotated_value>
+			<color>dark gray</color>
+		</slice>
+		<slice id="6">
+			<label>Full-time ($30-40k)</label>
+			<annotated_value>21%*</annotated_value>
+			<color>gray</color>
+		</slice>
+		<slice id="7">
+			<label>Full-time (>$40k)</label>
+			<annotated_value>26%*</annotated_value>
+			<color>white</color>
+		</slice>
+		<footnote>*Employment outcomes and incomes of college graduates two years 
+	 	   after on-time graduation
+		</footnote>
+</Piechart>

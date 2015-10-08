@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P103-A">
+	<!-- Graphic: Android's split personality, 2014 edition. Comparison with iOS How fragmented 
+	has Android become? From OpenSignal's findings: 18,796 distinct Android configurations seen in
+	2014 11,868 seen in 2013 3,997 seen in 2012. Things are simpler for iOS developers. The same
+	survey found 91% of Apple devices running iOS 7, the current operating system version, and 99%
+	running either iOS 7 or iOS 6. Moreover, iOS devices come in only four sizes. (See graphics
+	below.) Despite the challenges posed by fragmentation, OpenSignal argues that the benefits
+	outweigh the drawbacks. "Android is now the dominant mobile operating system," the report
+	concludes, "and this is because of fragmentation, not in spite of it." -->
+	<title>Comparison with IOS</title>
+		<slice id="1">
+			<label>IOS 7</label>
+			<annotated_value>91%</annotated_value>
+			<color>blue</color>
+		</slice>
+		<slice id="2">
+			<label>IOS 6</label>
+			<annotated_value>8%</annotated_value>
+			<color>light blue</color>
+		</slice>
+		<slice id="3">
+			<label>Earlier Version</label>
+			<annotated_value>1%</annotated_value>
+			<color>white</color>
+		</slice>
+</Piechart>

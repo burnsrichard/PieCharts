@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P105">
+	<!-- Female novelist's charts show books about women rarely win awards. 
+	Pulitzer Prize 2000-2015 -->
+	<title>Pulitzer Prize 2000-2015</title>
+		<slice id="1">
+			<label>By women about both</label>
+			<numericvalue>3</numericvalue>
+			<color>dark blue</color>
+		</slice>
+		<slice id="2">
+			<label>By men about women/girls</label>
+			<numericvalue>0</numericvalue>
+			<color>purple</color>
+		</slice>
+		<slice id="3">
+			<label>By men about both</label>
+			<numericvalue>0</numericvalue>
+			<color>pink</color>
+		</slice>
+		<slice id="4">
+			<label>By women about men/boys</label>
+			<numericvalue>3</numericvalue>
+			<color>dark pink</color>
+		</slice>
+		<slice id="5">
+			<label>By men about men/boys</label>
+			<numericvalue>8</numericvalue>
+			<color>red</color>
+		</slice>
+		<slice id="6">
+			<label>Unsure</label>
+			<numericvalue>1</numericvalue>
+			<color>yellow</color>
+		</slice>
+		<slice id="7">
+			<label>By women about women/girls</label>
+			<numericvalue>0</numericvalue>
+			<color>light blue</color>
+		</slice>
+</Piechart>

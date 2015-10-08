@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P99-B">
+	<!-- 25 Amazing Food Infographics, Drawn From 49,733 Recipes. A Pie Chart of Pies
+	All of Food Network's 468 pie recipes, broken down by delicious filling.  -->
+	<title>A pie chart of pies</title>
+		<slice id="1">
+			<label>Apple</label>
+			<eyeball>20%</eyeball>
+			<color>red</color>
+			<highlighted />
+		</slice>
+		<slice id="2">
+			<label>Pumpkin</label>
+			<eyeball>12%</eyeball>
+			<color>light gray</color>
+		</slice>
+		<slice id="3">
+			<label>Pecan</label>
+			<eyeball>12%</eyeball>
+			<color>gray</color>
+		</slice>
+		<slice id="4">
+			<label>Sweet potato</label>
+			<eyeball>8%</eyeball>
+			<color>dark gray</color>
+		</slice>
+		<slice id="5">
+			<label>Banana cream</label>
+			<eyeball>7%</eyeball>
+			<color>gray</color>
+		</slice>
+		<slice id="6">
+			<label>Key lime</label>
+			<eyeball>5%</eyeball>
+			<color>dark gray</color>
+		</slice>
+		<slice id="7">
+			<label>Peach</label>
+			<eyeball>5%</eyeball>
+			<color>light gray</color>
+		</slice>
+		<slice id="8">
+			<label>Blueberry</label>
+			<eyeball>5%</eyeball>
+			<color>gray</color>
+		</slice>
+		<slice id="9">
+			<label>Cherry</label>
+			<eyeball>5%</eyeball>
+			<color>dark gray</color>
+		</slice>
+		<slice id="10">
+			<label>Lemon meringue</label>
+			<eyeball>5%</eyeball>
+			<color>light gray</color>
+		</slice>
+		<slice id="11">
+			<label>Strawberry</label>
+			<eyeball>5%</eyeball>
+			<color>gray</color>
+		</slice>
+		<slice id="12">
+			<label>Rhubarb</label>
+			<eyeball>4%</eyeball>
+			<color>dark gray</color>
+		</slice>
+		<slice id="13">
+			<label>Coconut cream</label>
+			<eyeball>3%</eyeball>
+			<color>gray</color>
+		</slice>
+		<slice id="14">
+			<label>Blackberry</label>
+			<eyeball>2%</eyeball>
+			<color>dark gray</color>
+		</slice>
+		<slice id="15">
+			<label>Raspberry</label>
+			<eyeball>2%</eyeball>
+			<color>gray</color>
+		</slice>
+</Piechart>

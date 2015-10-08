@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P101-A">
+	<!-- The politics of race and religion - in two pie charts. 2012 Religious Composition of
+	Republicans/Republican Leaners.-->
+	<title>2012 Religious Composition of Republicans/Republican Leaners</title>
+		<slice id="1">
+			<label>White evangelical Protestant</label>
+			<annotated_value>34%</annotated_value>
+			<color>dark brown</color>
+		</slice>
+		<slice id="2">
+			<label>White mainline Protestant</label>
+			<annotated_value>20%</annotated_value>
+			<color>brown</color>
+		</slice>
+		<slice id="3">
+			<label>Black Protestant</label>
+			<annotated_value>1%</annotated_value>
+			<color>red</color>
+		</slice>
+		<slice id="4">
+			<label>White Catholic</label>
+			<annotated_value>18%</annotated_value>
+			<color>orange</color>
+		</slice>
+		<slice id="5">
+			<label>Hispanic Catholic</label>
+			<annotated_value>3%</annotated_value>
+			<color>pink</color>
+		</slice>
+		<slice id="6">
+			<label>Religiously unaffiliated</label>
+			<annotated_value>11%</annotated_value>
+			<color>light pink</color>
+		</slice>
+		<slice id="7">
+			<label>Other*</label>
+			<annotated_value>13%*</annotated_value>
+			<color>light light pink</color>
+		</slice>
+		<footnote>
+			*The "other" category includes members of smaller religious groups (e.g., Mormons,
+			Jews, Muslims, Buddhists, Hindus and others) as well as Protestants and Catholics
+			who describe their race as something other than white, black or Hispanic (e.g., Asian,
+			mixed race).
+		</footnote>
+</Piechart>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Piechart id ="P100-C">
+	<!-- Three Pie Charts That Prove You Shouldn't Slack Off in College. Reflecting the 
+	class of '09's failure to launch, a quarter were living with their parents. 
+	Living arrangements of college graduates two years after on-time graduation.-->
+	<title>Students who didn't take school seriously failed after college</title>
+		<slice id="1">
+			<label>Owning/renting on my own</label>
+			<annotated_value>28%*</annotated_value>
+			<color>gray</color>
+		</slice>
+		<slice id="2">
+			<label>Renting with partner/spouse</label>
+			<annotated_value>15%*</annotated_value>
+			<color>light gray</color>
+		</slice>
+		<slice id="3">
+			<label>Renting with friends</label>
+			<annotated_value>30%*</annotated_value>
+			<color>white</color>
+		</slice>
+		<slice id="4">
+			<label>Living with parents/relatives</label>
+			<annotated_value>24%*</annotated_value>
+			<color>black</color>
+			<highlighted />
+		</slice>
+		<slice id="5">
+			<label>Other</label>
+			<annotated_value>3%*</annotated_value>
+			<color>white</color>
+		</slice>
+		<footnote>
+			*Living arrangements of college graduates two years after on-time graduation
+		</footnote>
+</Piechart>

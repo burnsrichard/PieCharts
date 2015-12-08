@@ -87,23 +87,20 @@ on taz.
 
 @taz:~/public_html/PieCharts$ nano credentials.php
 
-Notice we are using port 3306. Copy contents:
-
-//////////////////////////////////////////////////////////////////
+**Notice we are using port 3306.** Copy contents:
+-------------------------------------------------
 <?php
 
 $host = "127.0.0.1";
 $port = 3306;            
 
-//taz MySQL credentials
+//taz MySQL credentials			
 $dbname = "PieCharts";
 $username = "<mysql_username>";
 $password = "<mysql_password>";
 
 ?>
-
-/////////////////////////////////////////////////////////////////
-
+--------------------------------------------------
 To save the file press ctl+0. Press enter to confirm and then exit nano with ctl+x.
 
 The PieCharts link should now be accessible at taz.cs.wcup.edu/~<taz_username>

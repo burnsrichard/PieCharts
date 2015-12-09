@@ -16,7 +16,7 @@ server.
 
 Clone the PieCharts repository from https://github.com/burnsrichard/PieCharts
 
-$ git clone https://github.com/burnsrichard/PieCharts
+`$ git clone https://github.com/burnsrichard/PieCharts`
 
 Create "credentials.php" file in the PieCharts directory to specify "$username" and "$password" 
 database credentials. These credentails are for the MySQL database and differ from the 
@@ -40,11 +40,12 @@ $password = "MYSQLPASSWORD";
 
 ?>	
 ```
-Port forwarding to taz. 
-Remote connections to port 3306 are blocked. You must forward local port 8306 to taz.
+Port forward to taz. Remote connections to port 3306 are blocked. You must forward local port
+8306 to taz.
 
 From the command line: 
-$ ssh -L 8306:localhost:3306 "TAZUSERNAME"@taz.cs.wcupa.edu
+
+`$ ssh -L 8306:localhost:3306 "TAZUSERNAME"@taz.cs.wcupa.edu`
 
 Once the connection to the database is established, the PieChart directory and database links 
 should render on your localhost.
@@ -55,33 +56,36 @@ should render on your localhost.
 
 These instructions are designed for using the server taz.cs.wcupa.edu to run the PieCharts directory.
 
-Log into taz with your crdentials:
-$ ssh "TAZUSERNAME"@taz.cs.wcupa.edu
+Log into taz with your crdentials.	
 
-Create a public_html directory:
-@taz$ mkdir public_html
+`$ ssh "TAZUSERNAME"@taz.cs.wcupa.edu`
 
-cd into the public_html directory.
-@taz$ cd public_html
+Create a public_html directory.	
 
-The git version control system is installed on taz.
-Clone the PieCharts repository from https://github.com/burnsrichard/PieCharts
+`@taz$ mkdir public_html`
 
-@taz:~/public_html$ git clone https://github.com/burnsrichard/PieCharts
+Change into the public_html directory.
+	
+`@taz$ cd public_html`
 
-cd into the PieCharts directory.
+The git version control system is installed on taz. Clone the PieCharts repository from
+https://github.com/burnsrichard/PieCharts
 
-@taz:~/public_html$ cd PieCharts
+`@taz:~/public_html$ git clone https://github.com/burnsrichard/PieCharts`
 
-Create "credentials.php" file to specify "$username" and "$password" DB credentials. These
+Change into the PieCharts directory.
+
+`@taz:~/public_html$ cd PieCharts`
+
+Create "credentials.php" file to specify "$username" and "$password" database credentials. These
 credentails are for the MySQL database and differ from the taz.cs.wcupa.edu credentails.
 This file is included in .gitignore of the PieCharts repository. This file, with your personal
 credentials, will not be committed into the repo. Nano is the default command line text editor 
 on taz.
 
-@taz:~/public_html/PieCharts$ touch credentials.php
+`@taz:~/public_html/PieCharts$ touch credentials.php`
 
-@taz:~/public_html/PieCharts$ nano credentials.php
+`@taz:~/public_html/PieCharts$ nano credentials.php`
 
 Notice we are using port 3306. Copy contents:
 ```

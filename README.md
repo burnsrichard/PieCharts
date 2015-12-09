@@ -103,4 +103,6 @@ $password = "MYSQLPASSWORD";
 ```
 To save the file press ctl+0. Press enter to confirm and then exit nano with ctl+x.
 
-The PieCharts link should now be accessible at taz.cs.wcup.edu/~TAZUSERNAME
+The PieCharts link should now be accessible at:
+
+ `taz.cs.wcupa.edu/~TAZUSERNAME`

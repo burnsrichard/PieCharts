@@ -27,26 +27,24 @@ Access to taz.cs.wcupa.edu is required. The database exists on taz.cs.wcupa.edu,
 blocks access to MySQL port 3306. You must port forward to access the database. 
 
 Copy contents into "credentials.php":
-------------------------------------------------------	
+```	
 <?php
 
-$host = "127.0.0.1";	
-$port = 8306;              // forwarded port	
+$host = "127.0.0.1";		
+$port = 8306;              	
 
-//taz MySQL credentials		
-$dbname = "PieCharts";
-$username = "<mysql_username>";
-$password = "<mysql_password>";
+//taz MySQL credentials			
+$dbname = "PieCharts";	
+$username = "MYSQLUSERNAME";	
+$password = "MYSQLPASSWORD";	
 
 ?>	
-------------------------------------------------------
-
+```
 Port forwarding to taz. 
 Remote connections to port 3306 are blocked. You must forward local port 8306 to taz.
 
 From the command line: 
-$ ssh -L 8306:localhost:3306 <taz_username>@taz.cs.wcupa.edu
-<taz_password>
+$ ssh -L 8306:localhost:3306 "TAZUSERNAME"@taz.cs.wcupa.edu
 
 Once the connection to the database is established, the PieChart directory and database links 
 should render on your localhost.
@@ -58,7 +56,7 @@ should render on your localhost.
 These instructions are designed for using the server taz.cs.wcupa.edu to run the PieCharts directory.
 
 Log into taz with your crdentials:
-$ ssh <taz_username>@taz.cs.wcupa.edu
+$ ssh "TAZUSERNAME"@taz.cs.wcupa.edu
 
 Create a public_html directory:
 @taz$ mkdir public_html
@@ -86,19 +84,19 @@ on taz.
 @taz:~/public_html/PieCharts$ nano credentials.php
 
 Notice we are using port 3306. Copy contents:
--------------------------------------------------
+```
 <?php
 
 $host = "127.0.0.1";	
 $port = 3306;  	          
 
 //taz MySQL credentials					
-$dbname = "PieCharts";	
-$username = "<mysql_username>";	
-$password = "<mysql_password>";	
+$dbname = "PieCharts";		
+$username = "MYSQLUSERNAME";		
+$password = "MYSQLPASSWORD";		
 
 ?>	
---------------------------------------------------
+```
 To save the file press ctl+0. Press enter to confirm and then exit nano with ctl+x.
 
-The PieCharts link should now be accessible at taz.cs.wcup.edu/~<taz_username>
+The PieCharts link should now be accessible at taz.cs.wcup.edu/~TAZUSERNAME

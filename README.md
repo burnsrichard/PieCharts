@@ -27,7 +27,8 @@ Access to taz.cs.wcupa.edu is required. The database exists on taz.cs.wcupa.edu,
 blocks access to MySQL port 3306. You must port forward to access the database. 
 
 Copy contents into "credentials.php":
-```	
+
+```php	
 <?php
 
 $host = "127.0.0.1";		
@@ -40,6 +41,7 @@ $password = "MYSQLPASSWORD";
 
 ?>	
 ```
+
 Port forward to taz. Remote connections to port 3306 are blocked. You must forward local port
 8306 to taz.
 
@@ -88,7 +90,8 @@ on taz.
 `@taz:~/public_html/PieCharts$ nano credentials.php`
 
 Notice we are using port 3306. Copy contents:
-```
+
+```php
 <?php
 
 $host = "127.0.0.1";	
@@ -101,6 +104,7 @@ $password = "MYSQLPASSWORD";
 
 ?>	
 ```
+
 To save the file press ctl+0. Press enter to confirm and then exit nano with ctl+x.
 
 The PieCharts link should now be accessible at:

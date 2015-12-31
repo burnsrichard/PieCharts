@@ -27,10 +27,7 @@ Access to taz.cs.wcupa.edu is required. The database exists on taz.cs.wcupa.edu,
 blocks access to MySQL port 3306. You must port forward to access the database. 
 
 Copy contents into "credentials.php":
-<<<<<<< HEAD
 
-=======
->>>>>>> 5890870264f38f460886481b96cac2f5b0e30eb3
 ```php	
 <?php
 
@@ -93,10 +90,7 @@ on taz.
 `@taz:~/public_html/PieCharts$ nano credentials.php`
 
 Notice we are using port 3306. Copy contents:
-<<<<<<< HEAD
 
-=======
->>>>>>> 5890870264f38f460886481b96cac2f5b0e30eb3
 ```php
 <?php
 

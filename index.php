@@ -21,7 +21,6 @@ include 'header.php';
     </tr>
 <?php
 try {
-
 	// Create connection
 	$dbh = new PDO("mysql:host=$host;port=$port;dbname=$dbname", $username, $password);
 } catch (PDOException $e) {
@@ -76,7 +75,6 @@ try {
         foreach($result as $value){
             echo "<a href='tag.php?id=$value'>" . $value . "</a> ";
         }
-
          
     ?>
 </div>

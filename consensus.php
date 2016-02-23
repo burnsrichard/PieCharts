@@ -42,7 +42,7 @@ catch (PDOException $e)
 	{ ?>
         <tr>
             <td><?php echo $row["Index"]?></td>
-            <td><a href="piechart.php?id=<?php echo $row["Id"]?>">
+            <td><a href="piechart.php?id=<?php echo $row["Pie_Id"]?>">
                 <?php 
                 echo $row["Pie_Id"]; 
                 ?></a>

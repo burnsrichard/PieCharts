@@ -34,22 +34,28 @@ try {
     echo "Total number of pies shown: " . $total[0];
         
 	$sql = "SELECT * FROM `Corpus` WHERE `Thrown Out` = 0 OR `Thrown Out` = 2";
-    foreach($dbh->query($sql) as $row) { ?>
+    foreach($dbh->query($sql) as $row) 
+	{ ?>
         <tr>
             <td><?php echo $row["Index"]?></td>
             <td><a href="piechart.php?id=<?php echo $row["Id"]?>">
                 <?php 
                 echo $row["Id"]; 
-                if($row["Thrown Out"] == 2) {
+                if($row["Thrown Out"] == 2) 
+				{
                     echo " ?";              
                 }
                 ?></a>
             </td> 
             <td><?php 
-                    if($row["Date"] == null) {
+                    if($row["Date"] == null) 
+					{
                         echo "date unknown";
-                        }else 
+                    }
+					else
+					{ 
                         echo $row["Date"];
+					}
             ?></td>
             <td><?php echo $row["Headline"]?></td>
             <td><?php echo $row["tags"]?></td>
@@ -64,15 +70,18 @@ try {
         //display distinct types of tags
         $tags = array();
         $tags2 = "SELECT `tags` FROM `Corpus`";
-        foreach($dbh->query($tags2) as $row) {
+        foreach($dbh->query($tags2) as $row) 
+		{
             $components = $row["tags"];
             $seperateTags = preg_split("/( |,)/", $components);
-            foreach($seperateTags as $aTag) {
+            foreach($seperateTags as $aTag) 
+			{
                 array_push($tags, $aTag);
             }
         }
         $result = array_unique($tags);
-        foreach($result as $value){
+        foreach($result as $value)
+		{
             echo "<a href='tag.php?id=$value'>" . $value . "</a> ";
         }
          

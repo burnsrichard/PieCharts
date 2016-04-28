@@ -15,9 +15,10 @@ include 'header.php';
     <tr>
         <th>Index</th>
         <th>Id</th>  
-        <th>Date/time</th>
-        <th>Message category</th>
-        <th>Annotator</th>
+        <th>Richard</th>
+		<th>Eric</th>
+		<th>Wiktoria</th>
+		<th>Tyler</th>
     </tr>
 	
 <?php
@@ -35,60 +36,128 @@ catch (PDOException $e)
 	$stmt = $dbh->prepare($cnt);
 	$stmt->execute();
 	$total = $stmt->fetch();
+	
 	echo "Total number of pies shown: " . $total[0];
-    
-	$sql = "SELECT * FROM `Annotations` ORDER BY Pie_Id ASC";
+	
+	
+	//$lowerlimit = 0;
+	//$upperlimit = 10;
+	//$sql = "SELECT * FROM `Annotations` ORDER BY Pie_Id ASC LIMIT '{$lowerlimit}', '{$upperlimit}'";
+	//$result=$dbh->query($sql);
+	//$resultarray = $result->fetchAll();
+
+	$key = array('0.0' => array('','', '', '', ''));
+	$letters = array(
+		'A' => .01,'B' => .02,'C' => .03,'D' => .04,'E' => .05,
+		'F' => .06,'G' => .07,'H' => .08,'I' => .09,'J' => .10,
+		'K' => .11,'L' => .12,'M' => .13,'N' => .14,'O' => .15,
+		'P' => .16,'Q' => .17,'R' => .18,'S' => .19,'T' => .20,
+		'U' => .21,'V' => .22,'W' => .23,'X' => .24,'Y' => .25,
+		'Z' => .26		
+		);
+	$sql = "SELECT * FROM `Annotations` ORDER BY Pie_Id ASC"; 
+	//LIMIT 0, 10";
 	
 	$result=$dbh->query($sql);
 	$resultarray = $result->fetchAll();
-	//print_r($resultarray);
-	// foreach($dbh->query($sql) as $row)
-	
-	//create new array to store values of data structure and sort in the below array
-	//using regex to sort special cases
-	foreach($resultarray as $unsorted)
+
+	foreach($dbh->query($sql) as $row)
 	{
+		foreach($resultarray as &$unsorted)
+		{
+
+			if(preg_match("/^P([0-9]+)$/i", $unsorted["Pie_Id"], $matches))
+			{	
+				$double = ($matches[1] + 0.0);
+
+			}
+			elseif(preg_match("/^P([0-9]+)-([0-9]+)$/", $unsorted["Pie_Id"], $matches))
+			{			
+				
+				$temp = $matches[1] + .01 * $matches[2];
+				$double = number_format($temp, 2);
+
+			}			
+			elseif(preg_match("/^P([0-9]+)-([A-Z])$/", $unsorted["Pie_Id"], $matches))
+			{
+	
+				$temp = $matches[1] + $letters[$matches[2]];
+				$double = number_format($temp, 2);
 		
-		// ereg regex function
-		if(ereg($unsorted["Pie_Id"], "^P[0-9]+$")>1)
-		{
-		 	//if tyler key[["Pie_Id"]][3] = [double]
-			//if eric key[["Pie_Id"]][1] = [double]
-			//if wik key[["Pie_Id"]][2] = [double]
-			//if rich key[["Pie_Id"]][0] = [double]
-			//key[["Pie_Id"]][] = [double]
-		}	
-		// ereg regex function
-		if(ereg($unsorted["Pie_Id"], "^P[0-9]+-[A-Z]$")>1)
-		{
-			//sorted=[(pid).26]
-		}	
-		// ereg regex function
-		if(ereg($unsorted["Pie_Id"], "")>1)
-		{
-			
-		}	
-		// ereg regex function
-		if(ereg($unsorted["Pie_Id"], "")>1)
-		{
-			
-		}	
+			}
+			//elseif(preg_match("/^P([0-9]+)([A-Z])$/", $unsorted["Pie_Id"], $matches))
+			//{
+			//	$double = $matches[1][0];
+			//	$double = $double + $letters[$matches[2][0]];
+			//					print_r($double);
+			//					print_r("  ");
+
+			//}	
+			else{}
+				
+			if ($unsorted["Annotator"] == "Richard") 
+			{ 
+				$key[$double][1] = $unsorted["Message"];
+			}
+			elseif ($unsorted["Annotator"] == "Eric") 
+			{ 
+				$key[$double][2] = $unsorted["Message"];
+			}
+			elseif ($unsorted["Annotator"] == "Wiktoria") 
+			{ 
+				$key[$double][3] = $unsorted["Message"];
+			}
+			elseif ($unsorted["Annotator"] == "Tyler") 
+			{ 
+				$key[$double][4] = $unsorted["Message"];
+			}
+			$key[$double][0] = $unsorted["Pie_Id"];
+		}
 	}
-	 
-    foreach($dbh->query($sql) as $row) 
-	{ ?>
+
+	$keycount = 0;
+
+	ksort($key);	
+	
+	foreach($key as $id => $value)
+	{ 
+
+	?>
+		
         <tr>
-            <td><?php echo $row["Index"]?></td>
+            <td><?php echo $keycount ?></td>
             <td><a href="piechart.php?id=<?php echo $row["Pie_Id"]?>">
                 <?php 
-                echo $row["Pie_Id"]; 
+                echo $key[$id][0]; 
                 ?></a>
             </td> 
-            <td><?php echo $row["Timestamp"];?></td>
-			<td><?php echo $row["Message"];?></td>
-            <td><?php echo $row["Annotator"]?></td>
+			<td><?php if (isset($key[$id][1]))
+				{ 
+				echo $key[$id][1];
+				}?>
+			</td> 
+			<td><?php if (isset($key[$id][2])) 
+				{ 
+				echo $key[$id][2];
+				}?>
+			</td> 
+			</td>
+			<td><?php if (isset($key[$id][3])) 
+				{ 
+				echo $key[$id][3];
+				}?>
+			</td>
+            <td><?php if (isset($key[$id][4])) 
+				{ 
+				echo $key[$id][4];
+				}?>
+			</td>
         </tr>
+		
     <?php
+	
+	$keycount = $keycount + 1; 
     }
+	
     ?>
 </table>

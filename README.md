@@ -110,3 +110,8 @@ To save the file press ctl+0. Press enter to confirm and then exit nano with ctl
 The PieCharts link should now be accessible at:
 
  `taz.cs.wcupa.edu/~TAZUSERNAME`
+
+## Bugs ##
+
+- The Annotation Consensus page does not show the jpg image of the article.
+- On the Sort by Pie Id page, the P9-B parameter is stale. Every article link returns article P9-B

@@ -126,7 +126,7 @@ catch (PDOException $e)
 		
         <tr>
             <td><?php echo $keycount ?></td>
-            <td><a href="piechart.php?id=<?php echo $row["Pie_Id"]?>">
+            <td><a href="piechart.php?id=<?php echo $row[$id][0]?>">
                 <?php 
                 echo $key[$id][0]; 
                 ?></a>
